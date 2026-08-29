@@ -19,7 +19,7 @@ Gfx globalDL_0x000[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
 
     gsDPSetTextureLUT(G_TT_NONE),
@@ -39,7 +39,7 @@ Gfx globalDL_0x078[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
 
     //IMAGE_FIRE_0
@@ -48,7 +48,7 @@ Gfx globalDL_0x078[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -67,7 +67,7 @@ Gfx globalDL_0x120[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_2
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_2)),
@@ -75,7 +75,7 @@ Gfx globalDL_0x120[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -94,7 +94,7 @@ Gfx globalDL_0x1c8[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_7
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_7)),
@@ -102,7 +102,7 @@ Gfx globalDL_0x1c8[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -121,7 +121,7 @@ Gfx globalDL_0x270[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_8
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_8)),
@@ -129,7 +129,7 @@ Gfx globalDL_0x270[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -148,7 +148,7 @@ Gfx globalDL_0x318[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_9
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_9)),
@@ -156,7 +156,7 @@ Gfx globalDL_0x318[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -175,7 +175,7 @@ Gfx globalDL_0x3c0[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_10
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_10)),
@@ -183,7 +183,7 @@ Gfx globalDL_0x3c0[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -202,7 +202,7 @@ Gfx globalDL_0x468[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_11
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_11)),
@@ -210,7 +210,7 @@ Gfx globalDL_0x468[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -229,7 +229,7 @@ Gfx globalDL_0x510[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_12
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_12)),
@@ -237,7 +237,7 @@ Gfx globalDL_0x510[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -256,7 +256,7 @@ Gfx globalDL_0x5b8[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_13
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_13)),
@@ -264,7 +264,7 @@ Gfx globalDL_0x5b8[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -283,7 +283,7 @@ Gfx globalDL_0x660[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_14
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_14)),
@@ -291,7 +291,7 @@ Gfx globalDL_0x660[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -310,7 +310,7 @@ Gfx globalDL_0x708[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_1
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_1)),
@@ -318,7 +318,7 @@ Gfx globalDL_0x708[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -337,7 +337,7 @@ Gfx globalDL_0x7b0[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_3
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_3)),
@@ -345,7 +345,7 @@ Gfx globalDL_0x7b0[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -364,7 +364,7 @@ Gfx globalDL_0x858[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_4
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_4)),
@@ -372,7 +372,7 @@ Gfx globalDL_0x858[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -391,7 +391,7 @@ Gfx globalDL_0x900[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_5
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_5)),
@@ -399,7 +399,7 @@ Gfx globalDL_0x900[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
@@ -418,7 +418,7 @@ Gfx globalDL_0x9a8[] = {
     gsDPSetTile(G_IM_FMT_IA,  G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(56,56,G_IM_SIZ_8b), CALC_DXT(56,G_IM_SIZ_8b)),
-    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, MASK_64, 0, G_TX_WRAP, MASK_64, 0),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 7, 0, G_TX_RENDERTILE, 0, G_TX_WRAP, 0, 0, G_TX_WRAP, 0, 0),
     gsDPSetTileSize(0, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
     //IMAGE_FIRE_6
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, IMAGESEG(IMAGE_FIRE_6)),
@@ -426,7 +426,7 @@ Gfx globalDL_0x9a8[] = {
     gsDPLoadSync(),
     gsDPLoadBlock(7, 0, 0, CALC_LRS(16,14,G_IM_SIZ_16b), CALC_DXT(16,G_IM_SIZ_16b)),
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0188, 1, 0, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2, G_TX_NOMIRROR | G_TX_CLAMP, MASK_16, 2),
-    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(56), CALC_TILESIZE(56)),
+    gsDPSetTileSize(1, 0, 0, CALC_TILESIZE(14), CALC_TILESIZE(14)),
 
     gsDPSetTextureLUT(G_TT_NONE),
     gsDPPipeSync(),
